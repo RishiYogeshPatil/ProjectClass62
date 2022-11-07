@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+
+        <section id="header">
+            <img id="logo" src="logo.jpg">
+        </section>
+        <div class="container">
+            <section id="grid">
+                <h1>Grid Gallery</h1>
+                <span class="grid_view">
+                    <img class="grid" src="black%20widow.jpg">
+                    <img class="grid" src="cap%20america.jpg">
+                    <img class="grid" src="dr%20strange.jpg">
+                    <img class="grid" src="hawkeye.jpg">
+                </span>
+                <span class="grid_view">
+                    <img class="grid" src="hulk.jpg">
+                    <img class="grid" src="iron%20man.jpg">
+                    <img class="grid" src="spiderman.jpg">
+                    <img class="grid" src="thor.jpg">
+                </span>
+            </section>
+
+
+            <section class="sliding">
+                
+
+                <div id="myCarousel" class="carousel slide">
+                    <h1 id="text">Sliding Gallery</h1>
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <center>
+                                <a href="#" target="_blank">
+                                    <img src="black%20widow.jpg" class="img-responsive">
+                                </a>
+                                <div class="carousel-content">
+                                    <p>Black Widow</p>
+                                </div>
+                            </center>
+                        </div>
+                        
+                        
+                        
+                        <div class="item ">
+                            <center>
+                                <a href="#" target="_blank">
+                                    <img src="cap%20america.jpg" class="img-responsive">
+                                </a>
+                                <div class="carousel-content">
+                                    <p>Captain America</p>
+                                </div>
+                            </center>
+                        </div>
+                        
+                        
+                        
+                        <div class="item deactive">
+                            <center>
+                                <a href="#" target="_blank">
+                                    <img src="dr%20strange.jpg" class="img-responsive">
+                                </a>
+                                <div class="carousel-content">
+                                    <p>Doctor Strange</p>
+                                </div>
+                            </center>
+                        </div>
+                        
+                        
+                        <div class="item actived">
+                            <center>
+                                <a href="#" target="_blank">
+                                    <img src="hawkeye.jpg" class="img-responsive">
+                                </a>
+                                <div class="carousel-content">
+                                    <p>Hawk Eye</p>
+                                </div>
+                            </center>
+                        </div>
+                        
+                        
+                        
+                        <div class="item deactived">
+                            <center>
+                                <a href="#" target="_blank">
+                                    <img src="hulk.jpg" class="img-responsive">
+                                </a>
+                                <div class="carousel-content">
+                                    <p>Hulk</p>
+                                </div>
+                            </center>
+                        </div>
+                        
+                        
+                        <div class="item activate">
+                            <center>
+                                <a href="#" target="_blank">
+                                    <img src="iron%20man.jpg" class="img-responsive">
+                                </a>
+                                <div class="carousel-content">
+                                    <p>Iron Man</p>
+                                </div>
+                            </center>
+                        </div>
+                        
+                        <div class="item deactivate">
+                            <center>
+                                <a href="#" target="_blank">
+                                    <img src="spiderman.jpg" class="img-responsive">
+                                </a>
+                                <div class="carousel-content">
+                                    <p>Spider Man</p>
+                                </div>
+                            </center>
+                        </div>
+                        
+                        
+                        <div class="item activated">
+                            <center>
+                                <a href="#" target="_blank">
+                                    <img src="thor.jpg" class="img-responsive">
+                                </a>
+                                <div class="carousel-content">
+                                    <p>Thor</p>
+                                </div>
+                            </center>
+                        </div>
+                        
+                        
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <!--Give functionality to give previous slide--> <span class="glyphicon glyphicon-chevron-left"></span>
+                        <!--to give left icon used in bootstrap--->
+                    </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+
+
+                </div>
+
+            </section>
+        </div>
+
+
+    </center>
+
+</body></html>
